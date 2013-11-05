@@ -9,7 +9,8 @@
 typedef int GPIO_Mode_TypeDef;
 typedef int GPIO_Port_TypeDef;
 #define gpioModeInputPull 1
-#define gpioModePushPull 2
+#define gpioModeInput 2
+#define gpioModePushPull 3
 GPIO_PinModeSet(GPIO_Port_TypeDef, unsigned int, GPIO_Mode_TypeDef, unsigned int);
 #define EFM_ASSERT(expr) ((void)0);
 /* STOP TODO */
@@ -19,7 +20,7 @@ typedef struct {
     unsigned int pin;
 } line_t;
 
-typedef enum {BUS_INPUT_PULLUP, BUS_INPUT_PULLDOWN, BUS_OUTPUT} bus_state_t;
+typedef enum {BUS_INPUT_PULLUP, BUS_INPUT_PULLDOWN, BUS_INPUT_HIGH_IMPEDANCE, BUS_OUTPUT} bus_state_t;
 
 /* Input/output_mode left in case we want to configure them later */
 typedef struct {
@@ -27,7 +28,8 @@ typedef struct {
     line_t *lines;
     bus_state_t state;
 
-    GPIO_Mode_TypeDef input_mode;
+    GPIO_Mode_TypeDef input_pull_mode;
+    GPIO_Mode_TypeDef input_impedance_mode;
     GPIO_Mode_TypeDef output_mode;
 } bus_t;
 

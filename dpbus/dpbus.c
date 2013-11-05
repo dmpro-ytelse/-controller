@@ -8,6 +8,7 @@ bus_t initialise_bus(int size, line_t *lines, bus_state_t state) {
         lines,
         state,
         gpioModeInputPull,
+        gpioModeInput,
         gpioModePushPull
     };
 
@@ -63,7 +64,15 @@ unsigned int read_data(bus_t *bus) {
 }
 
 void set_bus_state(bus_t *bus, bus_state_t state) {
-    GPIO_Mode_TypeDef mode = (state == BUS_OUTPUT) ? bus->output_mode : bus->input_mode;
+    GPIO_Mode_TypeDef mode;
+    if (state == BUS_OUTPUT) {
+        mode = bus->output_mode;
+    } else if (state == BUS_INPUT_HIGH_IMPEDANCE) {
+        mode = bus->input_impedance_mode;
+    } else {
+        mode = bus->input_pull_mode;
+    }
+
     int output_value = state == BUS_INPUT_PULLUP;
 
     for (int i = 0; i < bus->size; i++) {
