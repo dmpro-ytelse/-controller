@@ -1,0 +1,397 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.70.1.5641/W32 for ARM               07/Nov/2013  15:14:30 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Exe\sdcard.out                                          #
+#    Map file     =  C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \List\sdcard.map                                         #
+#    Command line =  C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\autogen_init.o C:\Users\gombos\dmpro\controller\sdc #
+#                    ard\iar\sdcard\Debug\Obj\diskio.o                        #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_acmp.o C:\Users\gombos\dmpro\controller\sdcard\i #
+#                    ar\sdcard\Debug\Obj\em_adc.o                             #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_aes.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_assert.o                           #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_burtc.o C:\Users\gombos\dmpro\controller\sdcard\ #
+#                    iar\sdcard\Debug\Obj\em_cmu.o                            #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_dac.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_dbg.o                              #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_dma.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_ebi.o                              #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_emu.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_gpio.o                             #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_i2c.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_idac.o                             #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_int.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_lcd.o                              #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_lesense.o C:\Users\gombos\dmpro\controller\sdcar #
+#                    d\iar\sdcard\Debug\Obj\em_letimer.o                      #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_leuart.o C:\Users\gombos\dmpro\controller\sdcard #
+#                    \iar\sdcard\Debug\Obj\em_mpu.o                           #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_msc.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_opamp.o                            #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_pcnt.o C:\Users\gombos\dmpro\controller\sdcard\i #
+#                    ar\sdcard\Debug\Obj\em_prs.o                             #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_rmu.o C:\Users\gombos\dmpro\controller\sdcard\ia #
+#                    r\sdcard\Debug\Obj\em_rtc.o                              #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_system.o C:\Users\gombos\dmpro\controller\sdcard #
+#                    \iar\sdcard\Debug\Obj\em_timer.o                         #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_usart.o C:\Users\gombos\dmpro\controller\sdcard\ #
+#                    iar\sdcard\Debug\Obj\em_vcmp.o                           #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\em_wdog.o C:\Users\gombos\dmpro\controller\sdcard\i #
+#                    ar\sdcard\Debug\Obj\ff.o C:\Users\gombos\dmpro\controlle #
+#                    r\sdcard\iar\sdcard\Debug\Obj\sdcard.o                   #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Obj\startup_efm32gg.o C:\Users\gombos\dmpro\controller\ #
+#                    sdcard\iar\sdcard\Debug\Obj\system_efm32gg.o --redirect  #
+#                    _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o      #
+#                    C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug #
+#                    \Exe\sdcard.out --map C:\Users\gombos\dmpro\controller\s #
+#                    dcard\iar\sdcard\Debug\List\sdcard.map --config          #
+#                    "C:\Program Files (x86)\IAR Systems\Embedded Workbench   #
+#                    6.5\arm\config\linker\EnergyMicro\EFM32GG990F1024.icf"   #
+#                    --entry __iar_program_start --vfe                        #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Li005]: no definition for "f_puts" [referenced from C:\Users\gombos\dmpro
+          \controller\sdcard\iar\sdcard\Debug\Obj\sdcard.o]
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xdc
+  .intvec            ro code  0x00000000    0xdc  startup_efm32gg.o [1]
+                            - 0x000000dc    0xdc
+
+"P1":                                     0x24c0
+  .text              ro code  0x000000dc  0x1104  ff.o [1]
+  .text              ro code  0x000011e0   0x2dc  diskio.o [1]
+  .text              ro code  0x000014bc   0x3d0  sdcard.o [1]
+  .text              ro code  0x0000188c    0x56  ABImemcpy_unaligned.o [4]
+  .text              ro code  0x000018e2    0x2e  copy_init3.o [4]
+  .text              ro code  0x00001910   0x6e4  em_cmu.o [1]
+  .text              ro code  0x00001ff4   0x112  em_usart.o [1]
+  .text              ro code  0x00002106    0x22  zero_init3.o [4]
+  .text              ro code  0x00002128    0xd4  em_gpio.o [1]
+  .text              ro code  0x000021fc   0x134  system_efm32gg.o [1]
+  .text              ro code  0x00002330    0xb8  em_dma.o [1]
+  .text              ro code  0x000023e8    0x28  data_init.o [4]
+  .iar.init_table    const    0x00002410    0x24  - Linker created -
+  .text              ro code  0x00002434    0x1a  cmain.o [4]
+  .text              ro code  0x0000244e     0x4  low_level_init.o [3]
+  .text              ro code  0x00002452     0x4  exit.o [3]
+  .text              ro code  0x00002458     0xa  cexit.o [4]
+  .text              ro code  0x00002464     0xc  XXexit.o [4]
+  .rodata            const    0x00002470    0x18  sdcard.o [1]
+  .rodata            const    0x00002488    0x18  sdcard.o [1]
+  .rodata            const    0x000024a0    0x10  ff.o [1]
+  .text              ro code  0x000024b0    0x10  startup_efm32gg.o [1]
+  .text              ro code  0x000024c0     0xc  cstartup_M.o [4]
+  .rodata            const    0x000024cc     0x8  sdcard.o [1]
+  .text              ro code  0x000024d4     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024d8     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024dc     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024e0     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024e4     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024e8     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024ec     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024f0     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024f4     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024f8     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x000024fc     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002500     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002504     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002508     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000250c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002510     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002514     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002518     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000251c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002520     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002524     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002528     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000252c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002530     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002534     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002538     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000253c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002540     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002544     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002548     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000254c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002550     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002554     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002558     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000255c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002560     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002564     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002568     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000256c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002570     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002574     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002578     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000257c     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002580     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002584     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x00002588     0x4  startup_efm32gg.o [1]
+  .text              ro code  0x0000258c     0x4  startup_efm32gg.o [1]
+  .rodata            const    0x00002590     0x0  zero_init3.o [4]
+  .rodata            const    0x00002590     0x0  copy_init3.o [4]
+  Initializer bytes  ro data  0x00002590     0xc  <for P2 s0> (used: 0x0)
+                            - 0x0000259c  0x24c0
+
+"P2", part 1 of 3:                           0xc
+  P2 s0                       0x20000000     0xc  <Init block>
+    .data            inited   0x20000000     0x4  system_efm32gg.o [1]
+    .data            inited   0x20000004     0x4  system_efm32gg.o [1]
+    .data            inited   0x20000008     0x1  diskio.o [1]
+                            - 0x2000000c     0xc
+
+"P2", part 2 of 3:                         0x46c
+  .bss               zero     0x2000000c   0x230  sdcard.o [1]
+  .bss               zero     0x2000023c   0x224  sdcard.o [1]
+  .bss               zero     0x20000460     0x4  diskio.o [1]
+  .bss               zero     0x20000464     0x4  ff.o [1]
+  .bss               zero     0x20000468     0x4  sdcard.o [1]
+  .bss               zero     0x2000046c     0x4  sdcard.o [1]
+  .bss               zero     0x20000470     0x4  system_efm32gg.o [1]
+  .bss               zero     0x20000474     0x2  ff.o [1]
+                            - 0x20000476   0x46a
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20000478   0x400  <Block>
+    CSTACK           uninit   0x20000478   0x400  <Block tail>
+                            - 0x20000878   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x46a:
+          0x2000000c  0x46a
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc (133% of destination):
+          0x00002590    0xc
+    1 destination range, total size 0x9:
+          0x20000000    0x9
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug\Obj: [1]
+    diskio.o                   732        1        5
+    em_cmu.o                 1 764
+    em_dma.o                   184
+    em_gpio.o                  212
+    em_usart.o                 274
+    ff.o                     4 356       16        6
+    sdcard.o                   976       56    1 116
+    startup_efm32gg.o          424
+    system_efm32gg.o           308        8       12
+    ------------------------------------------------
+    Total:                   9 230       81    1 139
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o       86
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                46
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     266
+
+    Gaps                         4
+    Linker created                       39    1 024
+----------------------------------------------------
+    Grand Total:             9 508      120    2 163
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x00002435         Code  Gb  cmain.o [4]
+BITBAND_Peripheral     0x00001911    0xe  Code  Lc  em_cmu.o [1]
+CMU_AUXClkGet          0x00001973   0x64  Code  Lc  em_cmu.o [1]
+CMU_ClockDivGet        0x00001ab1  0x134  Code  Gb  em_cmu.o [1]
+CMU_ClockEnable        0x00001be5   0xc0  Code  Gb  em_cmu.o [1]
+CMU_ClockFreqGet       0x00001ca5  0x1a2  Code  Gb  em_cmu.o [1]
+CMU_ClockSelectGet     0x00001e47  0x12c  Code  Gb  em_cmu.o [1]
+CMU_DBGClkGet          0x000019d7   0x40  Code  Lc  em_cmu.o [1]
+CMU_DivToLog2          0x0000191f    0xe  Code  Lc  em_cmu.o [1]
+CMU_LFClkGet           0x00001a17   0x84  Code  Lc  em_cmu.o [1]
+CMU_Log2ToDiv          0x0000192d    0x8  Code  Lc  em_cmu.o [1]
+CMU_Sync               0x00001a9b   0x16  Code  Lc  em_cmu.o [1]
+CMU_USBCClkGet         0x00001935   0x3e  Code  Lc  em_cmu.o [1]
+CSTACK$$Base           0x20000478          --   Gb  - Linker created -
+CSTACK$$Limit          0x20000878          --   Gb  - Linker created -
+CardType               0x20000460    0x4  Data  Lc  diskio.o [1]
+DMA_IRQHandler         0x00002331   0xa4  Code  Gb  em_dma.o [1]
+FatFs                  0x20000464    0x4  Data  Lc  ff.o [1]
+Fatfs                  0x2000000c  0x230  Data  Lc  sdcard.o [1]
+Fsid                   0x20000474    0x2  Data  Lc  ff.o [1]
+GPIO_PinModeSet        0x00002129   0xcc  Code  Gb  em_gpio.o [1]
+GetProdRev             0x000021fd    0xa  Code  Lc  system_efm32gg.o [1]
+Region$$Table$$Base    0x00002410          --   Gb  - Linker created -
+Region$$Table$$Limit   0x00002434          --   Gb  - Linker created -
+SD_BlockRx             0x00001701   0xc8  Code  Gb  sdcard.o [1]
+SD_BlockTx             0x0000181d   0x70  Code  Gb  sdcard.o [1]
+SD_Deselect            0x000015eb   0x12  Code  Gb  sdcard.o [1]
+SD_PowerOff            0x00001609   0x14  Code  Gb  sdcard.o [1]
+SD_PowerOn             0x000015fd    0xc  Code  Gb  sdcard.o [1]
+SD_Select              0x000015cd   0x1e  Code  Gb  sdcard.o [1]
+SD_SendCmd             0x0000161d   0xb0  Code  Gb  sdcard.o [1]
+SD_SpiClkFast          0x000016eb   0x16  Code  Gb  sdcard.o [1]
+SD_SpiClkSlow          0x00001597   0x14  Code  Gb  sdcard.o [1]
+SD_TimeOutElapsed      0x000016d9   0x12  Code  Gb  sdcard.o [1]
+SD_TimeOutSet          0x000016cd    0xc  Code  Gb  sdcard.o [1]
+SD_XferSpi             0x000015ab   0x22  Code  Gb  sdcard.o [1]
+SD_disk_initialize     0x00001525   0x72  Code  Gb  sdcard.o [1]
+SystemCoreClock        0x20000470    0x4  Data  Gb  system_efm32gg.o [1]
+SystemCoreClockGet     0x00002207   0x28  Code  Gb  system_efm32gg.o [1]
+SystemHFClockGet       0x0000222f   0xa6  Code  Gb  system_efm32gg.o [1]
+SystemHFXOClock        0x20000000    0x4  Data  Lc  system_efm32gg.o [1]
+SystemHFXOClockGet     0x000022d5    0x6  Code  Gb  system_efm32gg.o [1]
+SystemInit             0x000022db    0x2  Code  Gb  system_efm32gg.o [1]
+SystemLFRCOClockGet    0x000022dd    0x6  Code  Gb  system_efm32gg.o [1]
+SystemLFXOClock        0x20000004    0x4  Data  Lc  system_efm32gg.o [1]
+SystemLFXOClockGet     0x000022e9    0x6  Code  Gb  system_efm32gg.o [1]
+SystemULFRCOClockGet   0x000022e3    0x6  Code  Gb  system_efm32gg.o [1]
+USART_BaudrateSyncSet  0x00001ff5   0x34  Code  Gb  em_usart.o [1]
+USART_InitSync         0x00002029   0x6e  Code  Gb  em_usart.o [1]
+USART_Reset            0x00002097   0x46  Code  Gb  em_usart.o [1]
+USART_SpiTransfer      0x000020f1   0x16  Code  Gb  em_usart.o [1]
+WaitReady              0x000014fd   0x28  Code  Lc  sdcard.o [1]
+__Vectors              0x00000000          --   Gb  startup_efm32gg.o [1]
+__Vectors_End          0x000000dc         Data  Gb  startup_efm32gg.o [1]
+__Vectors_Size {Abs}   0x000000dc          --   Gb  startup_efm32gg.o [1]
+__cmain                0x00002435         Code  Gb  cmain.o [4]
+__exit                 0x00002465         Code  Gb  XXexit.o [4]
+__iar_copy_init3       0x000018e3   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3       0x000023e9   0x28  Code  Gb  data_init.o [4]
+__iar_program_start    0x000024c1         Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy4
+                       0x0000188d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                       0x0000188d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3       0x00002107   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init       0x0000244f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x00000000         Data  Gb  startup_efm32gg.o [1]
+__vector_table_0x1c    0x0000001c         Data  Gb  startup_efm32gg.o [1]
+_call_main             0x00002441         Code  Gb  cmain.o [4]
+_exit                  0x00002459         Code  Gb  cexit.o [4]
+_main                  0x0000244b         Code  Gb  cmain.o [4]
+check_fs               0x00000b2b   0x7e  Code  Lc  ff.o [1]
+chk_chr                0x00000133   0x14  Code  Lc  ff.o [1]
+clust2sect             0x000001d1   0x1a  Code  Gb  ff.o [1]
+create_chain           0x000004c3   0xe0  Code  Lc  ff.o [1]
+create_name            0x000008e7  0x17c  Code  Lc  ff.o [1]
+dir_alloc              0x00000795   0x66  Code  Lc  ff.o [1]
+dir_find               0x0000083b   0x68  Code  Lc  ff.o [1]
+dir_next               0x00000659  0x13c  Code  Lc  ff.o [1]
+dir_register           0x000008a3   0x44  Code  Lc  ff.o [1]
+dir_sdi                0x000005a3   0xb6  Code  Lc  ff.o [1]
+disk_initialize        0x000011e1  0x172  Code  Gb  diskio.o [1]
+disk_read              0x00001367   0x98  Code  Gb  diskio.o [1]
+disk_status            0x00001353   0x14  Code  Gb  diskio.o [1]
+disk_write             0x000013ff   0xb6  Code  Gb  diskio.o [1]
+exit                   0x00002453    0x4  Code  Gb  exit.o [3]
+f_mount                0x00000fdf   0x5c  Code  Gb  ff.o [1]
+f_open                 0x00001055  0x18c  Code  Gb  ff.o [1]
+fh                     0x2000023c  0x224  Data  Gb  sdcard.o [1]
+find_volume            0x00000ba9  0x436  Code  Lc  ff.o [1]
+follow_path            0x00000a9b   0x90  Code  Lc  ff.o [1]
+get_fat                0x000001eb   0xfe  Code  Gb  ff.o [1]
+get_fattime            0x000014f9    0x4  Code  Gb  sdcard.o [1]
+get_ldnumber           0x00000a63   0x38  Code  Lc  ff.o [1]
+ld_clust               0x000007fb   0x28  Code  Lc  ff.o [1]
+main                   0x000014bd   0x3c  Code  Gb  sdcard.o [1]
+mem_cmp                0x0000010f   0x24  Code  Lc  ff.o [1]
+mem_cpy                0x000000dd   0x1c  Code  Lc  ff.o [1]
+mem_set                0x000000f9   0x16  Code  Lc  ff.o [1]
+move_window            0x0000019b   0x36  Code  Lc  ff.o [1]
+put_fat                0x000002e9  0x164  Code  Gb  ff.o [1]
+remove_chain           0x0000044d   0x76  Code  Lc  ff.o [1]
+st_clust               0x00000823   0x18  Code  Lc  ff.o [1]
+stat                   0x20000008    0x1  Data  Lc  diskio.o [1]
+sync_window            0x00000147   0x54  Code  Lc  ff.o [1]
+timeOut                0x20000468    0x4  Data  Lc  sdcard.o [1]
+xfersPrMsec            0x2000046c    0x4  Data  Lc  sdcard.o [1]
+
+
+[1] = C:\Users\gombos\dmpro\controller\sdcard\iar\sdcard\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+
+  9 508 bytes of readonly  code memory
+    120 bytes of readonly  data memory
+  2 163 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none
