@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "dpbus.h"
 #include "cpubus.h"
 
@@ -70,7 +71,7 @@ int main() {
 
     result = read_cpu_memory(&cpu_bus, 0x1);
 
-    printf("Value stored at 0x1: 0x%x\n");
+    printf("Value stored at 0x1: 0x%x\n", result);
 
     fpga_set_state(&cpu_bus, INSTRUCTION_LOW_ACCESS);
 
@@ -80,7 +81,7 @@ int main() {
 
     result = read_cpu_memory(&cpu_bus, 0x1);
 
-    printf("Value stored at 0x1: 0x%x\n");
+    printf("Value stored at 0x1: 0x%x\n", result);
 
     fpga_set_state(&cpu_bus, INSTRUCTION_HIGH_ACCESS);
 
@@ -90,6 +91,6 @@ int main() {
 
     result = read_cpu_memory(&cpu_bus, 0x1);
 
-    printf("Value stored at 0x1: 0x%x\n");
+    printf("Value stored at 0x1: 0x%x\n", result);
     return 0;
 }
