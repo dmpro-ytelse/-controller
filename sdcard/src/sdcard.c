@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 
 #include "autogen_init.h"
 #include "em_gpio.h"
@@ -22,7 +22,7 @@ int main(void)
   /* Initialize chip */
   
   SD_disk_initialize();
-  res = f_mount(&Fatfs, 0, 1);
+  res = f_mount(&Fatfs, "", 1);
   
   if (res != FR_OK) {
       while (1); /* should return some error code */
@@ -30,7 +30,7 @@ int main(void)
   
   res = f_open(&fh, "test", FA_WRITE);
   
-  write_num = f_puts("this is a fine text\n", &fh);
+  write_num = f_printf(&fh, "this is a fine text\n");
   
   if (write_num == -1) {
     while(1);
@@ -75,7 +75,6 @@ void SD_disk_initialize(void) {
     /* Enabling pins and setting location, SPI CS not enable */
   SD_USART->ROUTE = USART_ROUTE_TXPEN | USART_ROUTE_RXPEN |
                     USART_ROUTE_CLKPEN | SD_LOC;
-
 
   GPIO_PinModeSet(SD_GPIOPORT, SD_MOSIPIN, gpioModePushPull, 0);
   GPIO_PinModeSet(SD_GPIOPORT, SD_MISOPIN, gpioModePushPull, 1);

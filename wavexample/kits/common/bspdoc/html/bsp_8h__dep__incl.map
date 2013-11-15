@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$bsp__dk__3200_8c.html" title="Board support package API implementation for BRD3200." alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node6" href="$bsp__dk__3201_8c.html" title="Board support package API implementation for BRD3201." alt="" coords="240,80,427,107"/>
+<area shape="rect" id="node9" href="$bsp__dk__leds_8c.html" title="Board support package API for GPIO leds on STK&#39;s." alt="" coords="475,80,656,107"/>
+<area shape="rect" id="node11" href="$bsp__dk__mcuboard_8c.html" title="Board support package API for functions on MCU plugin boards." alt="" coords="681,80,895,107"/>
+<area shape="rect" id="node13" href="$bsp__stk_8c.html" title="Board support package API implementation STK&#39;s." alt="" coords="920,80,1075,107"/>
+<area shape="rect" id="node15" href="$bsp__stk__leds_8c.html" title="Board support package API for GPIO leds on STK&#39;s." alt="" coords="1099,80,1283,107"/>
+<area shape="rect" id="node17" href="$bsp__trace_8c.html" title="API for enabling SWO and ETM trace." alt="" coords="1307,80,1473,107"/>
+<area shape="rect" id="node20" href="$i2cdrv_8c.html" title="I2C0 poll based driver for master mode operation on DK." alt="" coords="1522,80,1685,107"/>
+<area shape="rect" id="node22" href="$retargettft_8c.html" title="Provide stdio retargeting to TFT address mapped mode." alt="" coords="1710,80,1897,107"/>
+<area shape="rect" id="node24" href="$tftamapped_8c.html" title="EFM32GG_DK3750, TFT Initialization and setup for Adress Mapped mode." alt="" coords="1923,80,2117,107"/>
+<area shape="rect" id="node27" href="$tftdirect_8c.html" title="EFM32GG_DK3750, TFT Initialization and setup for Direct Drive mode." alt="" coords="2166,80,2340,107"/>
+<area shape="rect" id="node30" href="$touch_8c.html" title="EFM32GG_DK3750, Touch panel driver." alt="" coords="2389,80,2549,107"/>
+</map>

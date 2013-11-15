@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>979213046</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_dk_3201.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_dk_leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Source\system_efm32gg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_trace.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Source\IAR\startup_efm32gg.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\dmactrl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\microsd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_ebi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_system.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\src\diskio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\src\ff.c</file>
+      <file>$PROJ_DIR$\..\wavplayer.c</file>
+      <file>$PROJ_DIR$\..\..\..\config\microsdconfig.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_common.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_usart.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_prs.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_gpio.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\wavplayer.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\ff.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_dk_leds.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\inc\ffconf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\inc\ff.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\inc\integer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\microsd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\inc\diskio.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\List\wavplayer.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\drivers\dmactrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_acmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_gpio_p.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_vcmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_pcnt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_lcd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_burtc_ret.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_burtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_wdog.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_etm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_devinfo.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_romtable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_calibrate.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs_signals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dmareq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dmactrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_af_pins.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_bitband.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_ebi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_dk_bcreg_3201.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\bspconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\diskio.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_dk_3201.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_ebi.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\system_efm32gg.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\startup_efm32gg.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_dma.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_dac.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_trace.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_dk_3201.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_cmu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg990f1024.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\em_device.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_assert.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Exe\wavplayer.out</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\microsd.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\wavplayer.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_dma.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_dac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Exe\wavplayer.bin</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\wavplayer.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_buf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_st.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_hc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\system_efm32gg.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\config\linker\EnergyMicro\EFM32GG990F1024.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_trace.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\emlib\inc\em_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\config\traceconfig.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\dmactrl.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\ff.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_usart.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_ebi.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\diskio.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_system.pbi</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\microsd.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_assert.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_trace.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\bsp_dk_leds.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_timer.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\system_efm32gg.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\dmactrl.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_system.o</file>
+      <file>$PROJ_DIR$\wavplayer\Debug\Obj\em_emu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_letimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_ebi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_doep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_diep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\kits\common\drivers\microsd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\em_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\reptile\fatfs\inc\integer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg990f1024.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_vcmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_pcnt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_lcd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_burtc_ret.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_burtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_wdog.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_etm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_devinfo.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\reptile\fatfs\src\ff.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\reptile\fatfs\inc\diskio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_romtable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_calibrate.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_prs_signals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dmareq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dmactrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_af_pins.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\kits\EFM32GG_DK3750\config\microsdconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\emlib\inc\em_bitband.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_st.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_buf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_lesense.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_letimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_ebi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_acmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_gpio_p.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\system_efm32gg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_hc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_diep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb_doep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\AppData\Roaming\energymicro\Device\EnergyMicro\EFM32GG\Include\efm32gg_cmu.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 106 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_dk_3201.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 74 72 73 77 75 81 76 79 78 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 74 72 73 77 75 81 76 79 78 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_dk_leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 72 80 79 102 101 104 99 98 96 93 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 72 80 79 102 101 104 99 98 96 93 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Source\system_efm32gg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 101 104 99 98 96 93 95 94 92 100 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 101 104 99 98 96 93 95 94 92 100 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\bsp\bsp_trace.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 81 73 75 74 134 135 136 78 80 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 81 73 75 74 134 135 136 78 80 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Device\EnergyMicro\EFM32GG\Source\IAR\startup_efm32gg.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\dmactrl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\drivers\microsd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42 40 102 101 104 99 98 96 93 95 41 94 92 100 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 21 81 72 73 75 74 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 75 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 75 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 24 28 23 72 74 73 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 24 28 23 72 74 73 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_ebi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75 72 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75 72 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 72 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 72 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 94 92 100 102 101 104 99 98 96 93 95 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\src\diskio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42 40 102 101 104 99 98 96 93 95 41 94 92 100 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 21 81 72 73 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187 169 102 101 104 99 98 96 93 95 167 168 170 186 214 97 113 216 215 217 218 219 220 221 222 223 224 225 226 227 200 201 202 203 204 205 206 207 208 209 210 211 212 213 171 172 173 174 175 176 177 178 179 180 181 182 183 184 188 189 190 191 192 193 194 195 196 199 72 197 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\reptile\fatfs\src\ff.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 40 102 101 104 99 98 96 93 95 37 42 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 40 102 101 104 99 98 96 93 95 37 42 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\wavplayer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 101 104 99 98 96 93 95 28 23 133 131 102 137 94 92 100 103 97 113 123 127 124 125 126 122 166 164 117 116 111 165 121 119 118 120 160 159 158 161 163 162 112 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 30 72 74 73 25 26 29 27 38 76 45 39 40 37 41 21 81 75 42 78 80 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 101 104 99 98 96 93 95 28 23 133 131 102 137 45 41 21 78 72 80 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wavplayer\Debug\Exe\wavplayer.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 132 90 152 151 82 155 150 91 88 87 84 157 33 32 156 153 31 35 149 86 154 34 128 129 130</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

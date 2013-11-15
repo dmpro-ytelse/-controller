@@ -219,8 +219,8 @@ C:\Users\gombos\dmpro\controller\sdcard\FatFS
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593412
--D__DATE__="Oct 31 2013"
--D__TIME__="14:32:01"
+-D__DATE__="Nov  7 2013"
+-D__TIME__="18:11:48"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
@@ -245,8 +245,8 @@ C:\Users\gombos\dmpro\controller\sdcard\FatFS
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP0X_IL_EXTENSIONS_SUPPORTED=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\INC\c\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 6.5\\arm\\INC\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\INC\c\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 6.5\\arm\\INC\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V6.70.1.5641/W32 for ARM"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

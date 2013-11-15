@@ -12,7 +12,7 @@
 
 
 static DSTATUS stat = STA_NOINIT;  /* Disk status */
-
+static UINT CardType;
 
 /*-----------------------------------------------------------------------*/
 /* Inidialize a Drive                                                    */
@@ -155,7 +155,7 @@ DRESULT disk_write (
         count = 1;
     }
   }
-  MICROSD_Deselect();
+  SD_Deselect();
 
   return count ? RES_ERROR : RES_OK;
 }
@@ -182,7 +182,7 @@ DRESULT disk_ioctl (
   if (stat & STA_NOINIT) return RES_NOTRDY;
 
   res = RES_ERROR;
-  switch (ctrl) {
+  switch (cmd) {
     case CTRL_SYNC :                /* Flush dirty buffer if present */
       if (SD_Select()) {
         SD_Deselect();
