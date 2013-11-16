@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$group__BSP__DK.html#ga4044b087f6c29f36df7e29ade3bafb49" title="Read from a board controller register." alt="" coords="223,5,350,32"/>
-<area shape="rect" id="node5" href="$group__RetargetIo.html#gab455176edfa0f3414d104e5d6d64cc50" title="Intializes UART/LEUART." alt="" coords="215,56,358,83"/>
-<area shape="rect" id="node7" href="$group__RetargetIo.html#gaa0a41813e3ddadfbf867971b03a799d0" title="Transmit/display a character." alt="" coords="221,107,352,133"/>
-<area shape="rect" id="node11" href="$group__RetargetIo.html#ga47b8191a5aaac7b583336350b37b617d" title="Display framebuffer." alt="" coords="209,157,364,184"/>
-<area shape="rect" id="node13" href="$group__Textdisplay.html#ga3a2e2388e48b53f5634e78fc6c48bc76" title="Write a single character to a text display." alt="" coords="203,208,370,235"/>
-<area shape="rect" id="node9" href="$retargettft_8c.html#a6c9488944b681207319f980646795c34" title="Scroll one line of characters up on the screen." alt="" coords="419,107,485,133"/>
-</map>
