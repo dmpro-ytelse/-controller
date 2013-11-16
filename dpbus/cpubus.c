@@ -1,3 +1,5 @@
+#include "em_int.h"
+
 #include "cpubus.h"
 #include "dpbus.h"
 
@@ -55,6 +57,9 @@ void fpga_set_state(cpu_bus_t *cpu_bus, fpga_state_t state) {
 }
 
 void set_cpu_memory(cpu_bus_t *cpu_bus, uint32_t address, unsigned int data) {
+    /* Disable interrupts while writing to memory */
+    INT_Disable();
+
     set_data(&cpu_bus->addr_bus, address);
     set_data(&cpu_bus->chip_enable, 0);
     set_data(&cpu_bus->write_enable, 0);
@@ -67,9 +72,15 @@ void set_cpu_memory(cpu_bus_t *cpu_bus, uint32_t address, unsigned int data) {
     set_data(&cpu_bus->write_enable, 1);
     set_data(&cpu_bus->chip_enable, 1);
     set_bus_state(&cpu_bus->data_bus, BUS_INPUT_HIGH_IMPEDANCE);
+
+    /* Enable interrupts again */
+    INT_Enable();
 }
 
 unsigned int read_cpu_memory(cpu_bus_t *cpu_bus, uint32_t address) {
+    /* Disable interrupts while reading from memory */
+    INT_Disable();
+
     set_data(&cpu_bus->addr_bus, address);
     /* Wait? */
     set_data(&cpu_bus->chip_enable, 0);
@@ -78,6 +89,9 @@ unsigned int read_cpu_memory(cpu_bus_t *cpu_bus, uint32_t address) {
     int result = read_data(&cpu_bus->data_bus);
 
     set_data(&cpu_bus->chip_enable, 1);
+
+    /* Enable interrupts again */
+    INT_Enable();
 
     return result;
 }
